@@ -1,0 +1,67 @@
+{
+  "packageId": "app.lolicon.arkn.twa",
+  "host": "arkn.lolicon.app",
+  "name": "明日方舟工具箱",
+  "launcherName": "方舟工具箱",
+  "display": "standalone",
+  "themeColor": "#212121",
+  "navigationColor": "#212121",
+  "navigationColorDark": "#212121",
+  "navigationDividerColor": "#212121",
+  "navigationDividerColorDark": "#212121",
+  "backgroundColor": "#212121",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://arkn.lolicon.app/assets/icons/texas-icon-512x512-v2.png",
+  "maskableIconUrl": "https://arkn.lolicon.app/assets/icons/texas-icon-512x512-maskable-v2.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "key/arkntools.keystore",
+    "alias": "arkntools"
+  },
+  "appVersionName": "1.0.6",
+  "appVersionCode": 9,
+  "shortcuts": [
+    {
+      "name": "公开招募计算",
+      "shortName": "公开招募",
+      "url": "https://arkn.lolicon.app/#/hr",
+      "chosenIconUrl": "https://arkn.lolicon.app/assets/icons/shortcut-hr-192x192.png"
+    },
+    {
+      "name": "精英材料计算",
+      "shortName": "精英材料",
+      "url": "https://arkn.lolicon.app/#/material",
+      "chosenIconUrl": "https://arkn.lolicon.app/assets/icons/shortcut-material-192x192.png"
+    },
+    {
+      "name": "干员升级计算",
+      "shortName": "干员升级",
+      "url": "https://arkn.lolicon.app/#/level",
+      "chosenIconUrl": "https://arkn.lolicon.app/assets/icons/shortcut-level-192x192.png"
+    },
+    {
+      "name": "基建技能筛选",
+      "shortName": "基建技能",
+      "url": "https://arkn.lolicon.app/#/riic",
+      "chosenIconUrl": "https://arkn.lolicon.app/assets/icons/shortcut-riic-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://arkn.lolicon.app/manifest.json",
+  "fallbackType": "webview",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": false,
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "fingerprints": [
+    {
+      "value": "E6:76:7A:66:5D:22:7C:54:5A:00:49:B7:93:B2:8F:81:6B:D5:84:60:E2:1F:C1:B3:7D:45:9B:1E:B9:D9:D0:F4"
+    }
+  ],
+  "additionalTrustedOrigins": [],
+  "appVersion": "1.0.6"
+}
